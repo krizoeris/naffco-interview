@@ -18,7 +18,7 @@ function banner() {
             <Container>
                 <Row>
                     <Col lg="1" md="0" />
-                    <Col>
+                    <Col md="auto" sm="12">
                         <img alt="" src={promo1} className="promo1"/>
                         <div>
                             <img alt="" src={logo} width="250px" />
@@ -32,7 +32,7 @@ function banner() {
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col md="auto" sm="12">
                         <div className="productsContainer">
                             <div className="productsCircle">
                                 <img alt="" src={circle} />

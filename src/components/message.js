@@ -6,15 +6,15 @@ import productImage from '../assets/images/contact-info-image-min.png'
 
 function message() {
     return (
-        <div>
+        <div className="messageContainer">
             <Container>
-                <div className="messageCard d-flex">
+                <div className="messageCard">
                     <form className="p-4" noValidate autoComplete="off">
                         <h3>Send Us A Message</h3>
-                        <TextField id="standard-basic" label="Name" fullWidth />
-                        <TextField id="standard-basic" label="Email" fullWidth />
-                        <TextField id="standard-basic" label="Contact Number" fullWidth />
-                        <TextField id="standard-multiline-flexible" label="Multiline" multiline rows="4" fullWidth />
+                        <TextField id="standard-basic" label="Name" fullWidth className="mb-3" />
+                        <TextField id="standard-basic" label="Email" fullWidth className="mb-3" />
+                        <TextField id="standard-basic" label="Contact Number" fullWidth className="mb-3" />
+                        <TextField id="standard-multiline-flexible" label="Multiline" multiline rows="4" fullWidth className="mb-3" />
                         <div className="mt-4">
                         <Button variant="contained" color="primary">
                             Send

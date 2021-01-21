@@ -1,147 +1,254 @@
 .bannerContainer {
-    background-color: #f0f0f0;
-    min-height: 100vh;
+  background-color: #f0f0f0;
 }
 
 .bannerHeader {
-    font-size: 4em;
-    font-weight: bold;
+  font-size: 4em;
+  font-weight: bold;
 }
 
 .bannerHeaderContainer {
-    width: 450px;
+  width: 450px;
 }
 
 .bannerDescContainer {
-    width: 400px;
+  width: 400px;
 }
 
 .promo1 {
-    margin-left: 200px;
-    margin-top: 20px;
-    width: 390px;
+  margin-left: 200px;
+  margin-top: 20px;
+  width: 390px;
 }
 
 .productsContainer {
-    position: relative;
+  position: relative;
+  height: 850px;
 }
 
 .productsCircle {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate3d(-5%, 48%, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(-5%, 48%, 0);
 }
 
 .productsCircle img {
-    width: 560px;
+  width: 560px;
 }
 
 .productsProduct {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate3d(-35%, 50%, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(-35%, 50%, 0);
 }
 
 .productsProduct img {
-    width: 850px;
+  width: 850px;
 }
 
 .productspromo2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate3d(135%, 40%, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(135%, 40%, 0);
 }
 
 .productspromo2 img {
-    width: 150px;
+  width: 150px;
 }
 
 .productssafeForHumanR {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate3d(-180%, 600%, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(-180%, 600%, 0);
 }
 
 .productssafeForHumanR img {
-    width: 110px;
+  width: 110px;
 }
 
 .productsecoFriendlyR {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate3d(190%, 750%, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(190%, 750%, 0);
 }
 
 .productsecoFriendlyR img {
-    width: 90px;
+  width: 90px;
 }
 
 .productsnonAlcoholicR {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate3d(470%, 1250%, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(470%, 1250%, 0);
 }
 
 .productsnonAlcoholicR img {
-    width: 50px;
+  width: 50px;
 }
 
 .productsnaturalR {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate3d(-320%, 820%, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(-320%, 820%, 0);
 }
 
 .productsnaturalR img {
-    width: 70px;
+  width: 70px;
 }
 
 .productskillsBacteriaR {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate3d(-400%, 1000%, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(-400%, 1000%, 0);
 }
 
 .productskillsBacteriaR img {
-    width: 50px;
+  width: 50px;
 }
-
 
 .bannerButton {
-    background-color: rgb(255, 156, 36);
-    font-family: 'Montserrat', sans-serif;;
-    text-transform: uppercase;
-    box-shadow: 0 0 40px 0 #007ac31a;
-    visibility: visible;
-    text-align: left;
-    line-height: 34px;
-    letter-spacing: 2px;
-    font-weight: 600;
-    font-size: 21px;
-    border-color: transparent;
-    border-style: none;
-    margin: 0px;
-    border-radius: 30px;
-    padding: 12px 34px;
-    height: auto;
-    width: auto;
-    color: rgb(0, 0, 0);
-    text-decoration: none !important;
-    white-space: nowrap;
-    min-height: 0px;
-    min-width: 0px;
-    max-height: none;
-    max-width: none;
-    transform-origin: 50% 50%;
-    opacity: 1;
-    transform: translate(0px, 0px);
-    border-width: 0px;
+  background-color: rgb(255, 156, 36);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  box-shadow: 0 0 40px 0 #007ac31a;
+  visibility: visible;
+  text-align: left;
+  line-height: 34px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 21px;
+  border-color: transparent;
+  border-style: none;
+  margin: 0px;
+  border-radius: 30px;
+  padding: 12px 34px;
+  height: auto;
+  width: auto;
+  color: rgb(0, 0, 0);
+  text-decoration: none !important;
+  white-space: nowrap;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  transform-origin: 50% 50%;
+  opacity: 1;
+  transform: translate(0px, 0px);
+  border-width: 0px;
 }
+
+@media (max-width: 768px) {
+  .promo1 {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 250px;
+  }
+
+  .productsCircle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(55%, 48%, 0);
+  }
+
+  .productsCircle img {
+    width: 240px;
+  }
+
+  .productsProduct {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(3%, 50%, 0);
+  }
+
+  .productsProduct img {
+    width: 365px;
+  }
+
+  .productspromo2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(350%, 40%, 0);
+  }
+
+  .productspromo2 img {
+    width: 64.5px;
+  }
+
+  .productssafeForHumanR {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(100%, 600%, 0);
+  }
+
+  .productssafeForHumanR img {
+    width: 47.3px;
+  }
+
+  .productsecoFriendlyR {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(550%, 750%, 0);
+  }
+
+  .productsecoFriendlyR img {
+    width: 38.7px;
+  }
+
+  .productsnonAlcoholicR {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(1100%, 1100%, 0);
+  }
+
+  .productsnonAlcoholicR img {
+    width: 21.5px;
+  }
+
+  .productsnaturalR {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(150%, 820%, 0);
+  }
+
+  .productsnaturalR img {
+    width: 30.1px;
+  }
+
+  .productskillsBacteriaR {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(240%, 900%, 0);
+  }
+
+  .productskillsBacteriaR img {
+    width: 21.5px;
+  }
+
+  .productsContainer {
+    position: relative;
+    height: 400px;
+    margin-top: 25px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+/* @media (min-width: 750px) and (max-width: 969px) { ... }
+@media (min-width: 970px) and (max-width: 1169px) { ... }
+@media (min-width: 1170px) { ... } */

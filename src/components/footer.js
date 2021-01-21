@@ -8,22 +8,24 @@ function footer() {
         <div className="footerContainer">
             <Container>
                 <div className="footerInnerContainer">
-                <div style={{marginBottom: '70px'}}>
-                    <img alt="" src={logo} />
-                </div>
-                <Row>
-                    <Col>
-                        <div>
-                            <p>Copyright &#169 2020 SHIELD GLOBAL</p>
-                            <p style={{fontSize: '.8em'}}>*We reserve the right to change specifications of our product without prior notice.</p>
-                        </div>
-                    </Col>
-                    <Col>
-                        <div style={{textAlign: 'right'}}>
-                            <p>Follow Us On:    Facebook  |   Instagram |   YouTube |  LinkedIn | </p>
-                        </div>
-                    </Col>
-                </Row>
+                    <div className="footerLogo">
+                        <img alt="" src={logo} />
+                    </div>
+                    <div className="footerText">
+                        <Row>
+                            <Col md="6" sm="12">
+                                <div>
+                                    <p>Copyright &#169 2020 SHIELD GLOBAL</p>
+                                    <p style={{fontSize: '.8em'}}>*We reserve the right to change specifications of our product without prior notice.</p>
+                                </div>
+                            </Col>
+                            <Col md="6" sm="12">
+                                <div className="footerLinks">
+                                    <p>Follow Us On:    Facebook  |   Instagram |   YouTube |  LinkedIn | </p>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
                 </div>
             </Container>
         </div>

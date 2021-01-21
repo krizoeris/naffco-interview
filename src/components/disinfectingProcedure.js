@@ -10,12 +10,12 @@ function disinfectingProcedure() {
         <div className="dpContainer">
             <Container>
                 <Row>
-                    <Col>
+                    <Col md="8" sm="12">
                         <div className="dpImageContainer">
                             <img alt="" src={foggerMan} />
                         </div>
                     </Col>
-                    <Col>
+                    <Col md="4" sm="12">
                         <div>
                             <h2>Disinfecting Procedure</h2>
                             <span className="d-inline-flex">

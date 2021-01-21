@@ -6,7 +6,7 @@ import { faPlay} from '@fortawesome/free-solid-svg-icons'
 
 function video() {
     return (
-        <div className="videoContainer" style={{background: `url(${foggerMan})`}}>
+        <div className="videoContainer" style={{background: `url(${foggerMan}) no-repeat`}}>
             <a href="/" className="playBtn">
                 <div>
                 	<FontAwesomeIcon icon={faPlay} />

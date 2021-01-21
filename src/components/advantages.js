@@ -9,10 +9,10 @@ function advantages() {
         <div className="advantagesContainer">
         <Container>
             <Row>
-                <Col>
+                <Col md="3" sm="12" className="colBlock">
                     <h3>Advantages</h3>
                 </Col>
-                <Col>
+                <Col md="3" sm="12" className="colBlock">
                     <div><div className="d-inline-flex">
                     <div className="checkCircle mr-2"><FontAwesomeIcon icon={faCheckCircle} /></div>
                     <p>Maximum hygeine</p>
@@ -31,7 +31,7 @@ function advantages() {
                     </div></div>
                 </Col>
 
-                <Col>
+                <Col md="3" sm="12" className="colBlock">
                     <div><div className="d-inline-flex">
                     <div className="checkCircle mr-2"><FontAwesomeIcon icon={faCheckCircle} /></div>
                     <p>100% natural, 100% safe, zero chemicals, nontoxic</p>
@@ -49,7 +49,7 @@ function advantages() {
                     <p>Eco-friendly</p>
                     </div></div>
                 </Col>
-                <Col></Col>
+                <Col md="3" sm="12"></Col>
             </Row> 
         </Container>
         </div>

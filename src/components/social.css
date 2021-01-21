@@ -1,29 +1,36 @@
 .linksContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .linkBtn {
-    width: 100px;
-    height: 100px;
-    background-color: #eeeeee;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #0077ed;
-    font-size: 2.8em;
-    margin: 5px;
+  width: 100px;
+  height: 100px;
+  background-color: #eeeeee;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0077ed;
+  font-size: 2.8em;
+  margin: 5px;
 }
 
 .socialContainer {
-    margin-top: 40px;
-    margin-bottom: 60px;
-    text-align: center;
-    color: #1a75bc
+  margin-top: 40px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #1a75bc;
 }
 
 .socialContainer h2 {
-    font-weight: 700;
+  font-weight: 700;
+}
+
+@media (max-width: 750px) {
+  .linksContainer {
+    flex-direction: column;
+  }
 }

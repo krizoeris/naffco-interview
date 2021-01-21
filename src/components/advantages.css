@@ -1,13 +1,24 @@
 .advantagesContainer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .advantagesContainer p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .advantagesContainer h3 {
-    font-size: 1.5em;
-    font-weight: 600;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+@media (max-width: 750px) {
+  .advantagesContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .advantagesContainer .colBlock {
+    margin-bottom: 10px;
+  }
 }
