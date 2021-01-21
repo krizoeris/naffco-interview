@@ -10,17 +10,17 @@ import Video from './components/video'
 
 function App() {
   return (
-    <div className="App">
-      <Advantages />
-      <Banner />
-      <Card />
-      <Description />
-      <DisinfectingProcedure />
-      <Footer />
-      <Message />
-      <Social />
-      <Video />
-    </div>
+      <>
+        <Banner />
+        <Description />
+        <Video />
+        <DisinfectingProcedure />
+        <Advantages />
+        <Card />
+        <Social />
+        <Message />
+        <Footer />
+      </>
   );
 }
 
