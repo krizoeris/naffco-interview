@@ -1,6 +1,6 @@
 import React from 'react'
 import './description.css'
-import { Container, Row, Col, Collapse } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import electricFogger from '../assets/images/electric-cold-foggers.jpg';
 
 function description() {
