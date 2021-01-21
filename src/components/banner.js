@@ -28,7 +28,7 @@ function banner() {
                             <div className="bannerDescContainer">
                                 <p>Designed to counter the serious world health emergency situation and create a solution athat can be of public value</p>
                                 <p className="mb-4">Disinfection fogger has a unique hose design that can adapt to any angle, which allows you to a cover every inch of the room when going through the process</p>
-                                <a href="#" className="bannerButton">BUY ON AMAZON</a>
+                                <a href="/" className="bannerButton">BUY ON AMAZON</a>
                             </div>
                         </div>
                     </Col>

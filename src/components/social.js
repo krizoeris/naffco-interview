@@ -13,27 +13,27 @@ function social() {
                     <h2>STAY CONNECTED</h2>
                 </div>
                 <div className="linksContainer">
-                    <a href="#" className="linkBtn">
+                    <a href="/" className="linkBtn">
                         <div>
                             <FontAwesomeIcon icon={faFacebookF} />
                         </div>
                     </a>
-                    <a href="#" className="linkBtn">
+                    <a href="/" className="linkBtn">
                         <div>
                             <FontAwesomeIcon icon={faLinkedin} />
                         </div>
                     </a>
-                    <a href="#" className="linkBtn">
+                    <a href="/" className="linkBtn">
                         <div>
                             <FontAwesomeIcon icon={faYoutube} />
                         </div>
                     </a>
-                    <a href="#" className="linkBtn">
+                    <a href="/" className="linkBtn">
                         <div>
                             <FontAwesomeIcon icon={faInstagram} />
                         </div>
                     </a>
-                    <a href="#" className="linkBtn">
+                    <a href="/" className="linkBtn">
                         <div>
                             <FontAwesomeIcon icon={faTwitter} />
                         </div>
