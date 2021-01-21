@@ -17,7 +17,7 @@ const data = [
     {title: "ECO FRIENDLY", iconR: ecoFriendlyR, iconS: ecoFriendlyS},
     {title: "NON-ALCOHOLIC", iconR: nonAlcoholicR, iconS: nonAlcoholicS},
     {title: "100% NATURAL", iconR: naturalR, iconS: naturalS},
-    {title: "KILLS 99.99% OF\n VIRUSES & BACTERIA", iconR: killsBacteriaR, iconS: killsBacteriaS}
+    {title: "KILLS 99.99% OF <br /> VIRUSES & BACTERIA", iconR: killsBacteriaR, iconS: killsBacteriaS}
 ]
 
 function card() {
@@ -27,8 +27,8 @@ function card() {
                 {data.map(d => {
                     return(
                         <div>
-                            <img src={d.iconR} />
-                            <p>{d.title}</p>
+                            <img src={d.iconS} />
+                            <div dangerouslySetInnerHTML={{__html:d.title}}></div>
                         </div>
                     )
                 })}

@@ -1,0 +1,30 @@
+.descImageContainer img{
+    width: 570px;
+}
+
+.descriptionContainer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.descriptionContainer h2 {
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+.descriptionContainer p {
+    font-size: 1em;
+}
+
+.descriptionContainer img {
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.lineBreaker {
+    background-color: #0077ed;
+    height: 3px;
+    width: 65px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

@@ -15,8 +15,8 @@ function App() {
         <Description />
         <Video />
         <DisinfectingProcedure />
-        <Advantages />
         <Card />
+        <Advantages />
         <Social />
         <Message />
         <Footer />

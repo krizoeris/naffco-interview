@@ -1,11 +1,17 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import './video.css'
 import foggerMan from '../assets/images/sanitizing-fogger-bg-w-man.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlay} from '@fortawesome/free-solid-svg-icons'
 
 function video() {
     return (
-        <div>
-            <img src={foggerMan} />
+        <div className="videoContainer" style={{background: `url(${foggerMan})`}}>
+            <a href="#" className="playBtn">
+                <div>
+                	<FontAwesomeIcon icon={faPlay} />
+                </div>
+            </a>
         </div>
     )
 }

@@ -15,9 +15,9 @@ import killsBacteriaR from '../assets/images/icons/kills-bacteria-b-round.png'
 function banner() {
     return (
         <div className="bannerContainer">
-            <Container fluid>
+            <Container>
                 <Row>
-                    <Col md="2" xs="0" />
+                    <Col lg="1" md="0" />
                     <Col>
                         <img src={promo1} className="promo1"/>
                         <div>
@@ -27,7 +27,7 @@ function banner() {
                             </div>
                             <div className="bannerDescContainer">
                                 <p>Designed to counter the serious world health emergency situation and create a solution athat can be of public value</p>
-                                <p>Disinfection fogger has a unique hose design that can adapt to any angle, which allows you to a cover every inch of the room when going through the process</p>
+                                <p className="mb-4">Disinfection fogger has a unique hose design that can adapt to any angle, which allows you to a cover every inch of the room when going through the process</p>
                                 <a href="#" className="bannerButton">BUY ON AMAZON</a>
                             </div>
                         </div>

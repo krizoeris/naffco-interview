@@ -1,0 +1,28 @@
+.dpImageContainer img{
+    max-width: 750px;
+    border-radius: 30px;
+}
+
+.dpContainer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.dpContainer h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+.dpContainer p {
+    font-size: .9em;
+}
+
+.dpContainer img {
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.checkCircle {
+    color: #1a75bc;
+}

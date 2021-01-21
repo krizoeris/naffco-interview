@@ -1,0 +1,21 @@
+.videoContainer {
+    width: 100%;
+    height: 485px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playBtn {
+    width: 100px;
+    height: 100px;
+    background-color: #0077ed;
+    border-radius: 100%;
+    box-shadow: 0 0 40px 0 #0077ed1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 2.2em;
+}
+
