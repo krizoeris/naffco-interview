@@ -19,7 +19,7 @@ function description() {
                     </Col>
                     <Col md="6" sm="4">
                         <div className="descImageContainer">
-                            <img src={electricFogger} />
+                            <img alt="" src={electricFogger} />
                         </div>
                     </Col>
                 </Row>

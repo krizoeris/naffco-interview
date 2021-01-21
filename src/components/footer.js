@@ -9,7 +9,7 @@ function footer() {
             <Container>
                 <div className="footerInnerContainer">
                 <div style={{marginBottom: '70px'}}>
-                    <img src={logo} />
+                    <img alt="" src={logo} />
                 </div>
                 <Row>
                     <Col>

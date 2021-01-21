@@ -27,7 +27,7 @@ function card() {
                 {data.map(d => {
                     return(
                         <div>
-                            <img src={d.iconS} />
+                            <img alt="" src={d.iconS} />
                             <div dangerouslySetInnerHTML={{__html:d.title}}></div>
                         </div>
                     )

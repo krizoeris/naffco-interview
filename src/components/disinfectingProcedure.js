@@ -12,7 +12,7 @@ function disinfectingProcedure() {
                 <Row>
                     <Col>
                         <div className="dpImageContainer">
-                            <img src={foggerMan} />
+                            <img alt="" src={foggerMan} />
                         </div>
                     </Col>
                     <Col>

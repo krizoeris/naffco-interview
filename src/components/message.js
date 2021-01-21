@@ -26,7 +26,7 @@ function message() {
                             <p className="textContent">Contact Info</p>
                             <p className="textContent">info@shieldmeglobal.com</p>
                         </div>
-                        <img src={productImage} />
+                        <img alt="" src={productImage} />
                     </div>
                 </div>
             </Container>

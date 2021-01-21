@@ -19,9 +19,9 @@ function banner() {
                 <Row>
                     <Col lg="1" md="0" />
                     <Col>
-                        <img src={promo1} className="promo1"/>
+                        <img alt="" src={promo1} className="promo1"/>
                         <div>
-                            <img src={logo} width="250px" />
+                            <img alt="" src={logo} width="250px" />
                             <div className="bannerHeaderContainer">
                                 <h1 className="bannerHeader">{"Sanitizing\n Fogger"}</h1>
                             </div>
@@ -35,28 +35,28 @@ function banner() {
                     <Col>
                         <div className="productsContainer">
                             <div className="productsCircle">
-                                <img src={circle} />
+                                <img alt="" src={circle} />
                             </div>
                             <div className="productsProduct">
-                                <img src={Product} />
+                                <img alt="" src={Product} />
                             </div>
                             <div className="productspromo2">
-                                <img src={promo2} />
+                                <img alt="" src={promo2} />
                             </div>
                             <div className="productssafeForHumanR">
-                            	<img src={safeForHumanR}/>
+                            	<img alt="" src={safeForHumanR}/>
                             </div>
                             <div className="productsecoFriendlyR">
-                                <img src={ecoFriendlyR} />
+                                <img alt="" src={ecoFriendlyR} />
                             </div>
                             <div className="productsnonAlcoholicR">
-                                <img src={nonAlcoholicR} />
+                                <img alt="" src={nonAlcoholicR} />
                             </div>
                             <div className="productsnaturalR">
-                                <img src={naturalR} />
+                                <img alt="" src={naturalR} />
                             </div>
                             <div class="productskillsBacteriaR">
-                                <img src={killsBacteriaR} />
+                                <img alt="" src={killsBacteriaR} />
                             </div>
                         </div>
                     </Col>
