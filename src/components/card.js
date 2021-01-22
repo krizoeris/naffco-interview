@@ -11,6 +11,7 @@ import naturalS from '../assets/images/icons/natural-min.png'
 import killsBacteriaR from '../assets/images/icons/kills-bacteria-w-round.png'
 import killsBacteriaS from '../assets/images/icons/kills-bacteria-min.png'
 import { Container } from 'react-bootstrap'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const data = [
     {title: "SAFE FOR HUMANS", iconR: safeForHumanR, iconS: safeForHumanS},
@@ -24,12 +25,12 @@ function card() {
     return (
         <Container>
             <div className="card-container">
-                {data.map(d => {
+                {data.map((d, k) => {
                     return(
-                        <div>
+                        <ScrollAnimation  animateIn="zoomIn" animateOnce={true} delay={200*(k+1)}>
                             <img alt="" src={d.iconS} />
                             <div dangerouslySetInnerHTML={{__html:d.title}}></div>
-                        </div>
+                        </ScrollAnimation>
                     )
                 })}
             </div>

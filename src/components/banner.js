@@ -19,44 +19,72 @@ function banner() {
                 <Row>
                     <Col lg="1" md="0" />
                     <Col md="auto" sm="12">
-                        <img alt="" src={promo1} className="promo1"/>
+                        <div className="animate__animated animate__fadeInDown animate__delay-500ms">
+                            <img alt="" src={promo1} className="promo1"/>
+                        </div>
                         <div>
-                            <img alt="" src={logo} width="250px" />
-                            <div className="bannerHeaderContainer">
-                                <h1 className="bannerHeader">{"Sanitizing\n Fogger"}</h1>
+                            <div className="animate__animated animate__fadeInUp">
+                                <img alt="" src={logo} width="250px" />
                             </div>
-                            <div className="bannerDescContainer">
-                                <p>Designed to counter the serious world health emergency situation and create a solution athat can be of public value</p>
-                                <p className="mb-4">Disinfection fogger has a unique hose design that can adapt to any angle, which allows you to a cover every inch of the room when going through the process</p>
-                                <a href="/" className="bannerButton">BUY ON AMAZON</a>
+                            <div className="animate__animated animate__fadeInUp animate__delay-500ms">
+                                <div className="bannerHeaderContainer">
+                                    <h1 className="bannerHeader">{"Sanitizing\n Fogger"}</h1>
+                                </div>
+                            </div>
+                            <div className="animate__animated animate__fadeInUp animate__delay-1000ms">
+                                <div className="bannerDescContainer">
+                                    <p>Designed to counter the serious world health emergency situation and create a solution athat can be of public value</p>
+                                    <p className="mb-4">Disinfection fogger has a unique hose design that can adapt to any angle, which allows you to a cover every inch of the room when going through the process</p>
+                                    <div className="animate__animated animate__fadeInUp animate__delay-1500ms">
+                                        <a href="/" className="bannerButton">BUY ON AMAZON</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        
                     </Col>
                     <Col md="auto" sm="12">
                         <div className="productsContainer">
                             <div className="productsCircle">
-                                <img alt="" src={circle} />
+                                <div className="animate__animated animate__fadeInRight animate__delay-1000ms">
+                                    <img alt="" src={circle} />
+                                </div>
                             </div>
+                            
                             <div className="productsProduct">
-                                <img alt="" src={Product} />
+                                <div className="animate__animated animate__fadeInRight animate__delay-1500ms">
+                                    <img alt="" src={Product} />
+                                </div>
                             </div>
                             <div className="productspromo2">
-                                <img alt="" src={promo2} />
+                                <div className="animate__animated animate__fadeInUp animate__delay-1500ms">
+                                    <img alt="" src={promo2} />
+                                </div>
                             </div>
                             <div className="productssafeForHumanR">
-                            	<img alt="" src={safeForHumanR}/>
+                                <div className="animate__animated animate__fadeInUp animate__delay-1600ms">
+                            	    <img alt="" src={safeForHumanR}/>
+                                </div>
                             </div>
                             <div className="productsecoFriendlyR">
-                                <img alt="" src={ecoFriendlyR} />
+                                <div className="animate__animated animate__fadeInUp animate__delay-1700ms">
+                                    <img alt="" src={ecoFriendlyR} />
+                                </div>
                             </div>
                             <div className="productsnonAlcoholicR">
-                                <img alt="" src={nonAlcoholicR} />
+                                <div className="animate__animated animate__fadeInUp animate__delay-1800ms">
+                                    <img alt="" src={nonAlcoholicR} />
+                                </div>
                             </div>
                             <div className="productsnaturalR">
-                                <img alt="" src={naturalR} />
+                                <div className="animate__animated animate__fadeInUp animate__delay-1900ms">
+                                    <img alt="" src={naturalR} />
+                                </div>
                             </div>
                             <div class="productskillsBacteriaR">
-                                <img alt="" src={killsBacteriaR} />
+                                <div className="animate__animated animate__fadeInUp animate__delay-2000ms">
+                                    <img alt="" src={killsBacteriaR} />
+                                </div>
                             </div>
                         </div>
                     </Col>
